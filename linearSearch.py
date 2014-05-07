@@ -16,3 +16,4 @@ for x in range (len(testString)):
         lastPosition = x
 
 print ("I found {0} occurences of {1}".format(len(charList),searchChar))
+print("If I changed all the {0} letters in your string, it would look like this!".format(searchChar))
